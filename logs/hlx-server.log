@@ -1,0 +1,893 @@
+2019-09-11T22:30:25.018Z debug: Initialized helix-config with: 
+2019-09-11T22:30:25.018Z debug:      srcPath: /Users/uncled/codez/mcres/.hlx/pages/master/src
+2019-09-11T22:30:25.018Z debug:     buildDir: /Users/uncled/codez/mcres/.hlx/build
+2019-09-11T22:30:27.717Z debug: Launching helix simulation server for development...
+2019-09-11T22:30:27.728Z info: Starting helix-simulator v2.13.2
+2019-09-11T22:30:27.736Z info: Local Helix Dev server up and running: http://localhost:3000/
+2019-09-11T22:30:28.054Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": "https://github.com/davidnuescheler/mcres.git#master",
+  "static": "https://github.com/adobe/helix-pages.git/htdocs#master",
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:30:28.060Z debug: Launching local git server...
+2019-09-11T22:30:28.134Z debug: git emulating https://github.com/davidnuescheler/mcres.git via http://127.0.0.1:51455/helix/github.com--davidnuescheler--mcres.git#master from './'
+2019-09-11T22:30:28.135Z debug: git emulating https://github.com/adobe/helix-pages.git/htdocs via http://127.0.0.1:51455/helix/github.com--adobe--helix-pages.git#master from './.hlx/pages/master'
+2019-09-11T22:30:28.138Z debug: resolved /index.html -> html
+2019-09-11T22:30:30.011Z debug: Constructing HTML Pipeline
+2019-09-11T22:30:30.011Z debug: Creating pipeline
+2019-09-11T22:30:30.013Z debug: initializing ajv {"useDefaults":true,"coerceTypes":true}
+2019-09-11T22:30:30.040Z debug: - https://ns.adobe.com/helix/pipeline/action
+2019-09-11T22:30:30.041Z debug: - https://ns.adobe.com/helix/pipeline/content
+2019-09-11T22:30:30.041Z debug: - https://ns.adobe.com/helix/pipeline/context
+2019-09-11T22:30:30.042Z debug: - https://ns.adobe.com/helix/pipeline/mdast
+2019-09-11T22:30:30.043Z debug: - https://ns.adobe.com/helix/pipeline/meta
+2019-09-11T22:30:30.043Z debug: - https://ns.adobe.com/helix/pipeline/position
+2019-09-11T22:30:30.043Z debug: - https://ns.adobe.com/helix/pipeline/rawrequest
+2019-09-11T22:30:30.044Z debug: - https://ns.adobe.com/helix/pipeline/request
+2019-09-11T22:30:30.044Z debug: - https://ns.adobe.com/helix/pipeline/response
+2019-09-11T22:30:30.045Z debug: - https://ns.adobe.com/helix/pipeline/secrets
+2019-09-11T22:30:30.045Z debug: - https://ns.adobe.com/helix/pipeline/section
+2019-09-11T22:30:30.045Z debug: - https://ns.adobe.com/helix/pipeline/textcoordinates
+2019-09-11T22:30:30.045Z debug: ajv initialized
+2019-09-11T22:30:30.045Z debug: Coercing secrets
+2019-09-11T22:30:30.049Z debug: Running HTML pipeline
+2019-09-11T22:30:30.052Z debug: initializing ajv {}
+2019-09-11T22:30:30.061Z debug: - https://ns.adobe.com/helix/pipeline/action
+2019-09-11T22:30:30.061Z debug: - https://ns.adobe.com/helix/pipeline/content
+2019-09-11T22:30:30.062Z debug: - https://ns.adobe.com/helix/pipeline/context
+2019-09-11T22:30:30.062Z debug: - https://ns.adobe.com/helix/pipeline/mdast
+2019-09-11T22:30:30.063Z debug: - https://ns.adobe.com/helix/pipeline/meta
+2019-09-11T22:30:30.063Z debug: - https://ns.adobe.com/helix/pipeline/position
+2019-09-11T22:30:30.063Z debug: - https://ns.adobe.com/helix/pipeline/rawrequest
+2019-09-11T22:30:30.063Z debug: - https://ns.adobe.com/helix/pipeline/request
+2019-09-11T22:30:30.064Z debug: - https://ns.adobe.com/helix/pipeline/response
+2019-09-11T22:30:30.064Z debug: - https://ns.adobe.com/helix/pipeline/secrets
+2019-09-11T22:30:30.065Z debug: - https://ns.adobe.com/helix/pipeline/section
+2019-09-11T22:30:30.065Z debug: - https://ns.adobe.com/helix/pipeline/textcoordinates
+2019-09-11T22:30:30.065Z debug: ajv initialized
+2019-09-11T22:30:30.088Z info: trying to load http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/fstab.json
+2019-09-11T22:30:30.218Z info: resourcePath=/index
+2019-09-11T22:30:30.218Z info: relPath=/index
+2019-09-11T22:30:30.219Z info: fetching Markdown from https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Findex&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=KAujiVTzv8jGmc0RE4gxeGAVVGmoTWtI
+2019-09-11T22:30:37.830Z debug: Parsing markdown from request body starting with # Testing![](https://helixblobs.blob.core.windows.net/helixcontentblobs/27b39586e403b0d46258df2964bb8552.jpg)
+2019-09-11T22:30:37.882Z debug: Parsing Markdown Metadata from 2 sections
+2019-09-11T22:30:37.892Z debug: Turning Markdown into HTML from object
+2019-09-11T22:30:38.022Z debug: Keeping existing Surrogate-Key header
+2019-09-11T22:30:38.040Z debug: total processing time: 7992.082392ms
+2019-09-11T22:30:38.041Z debug: timing: p00;dur=1.094479;desc=resolveRef ,p01;dur=7741.790448;desc=undef ,p02;dur=0.350522;desc=fetch ,p03;dur=16.630582;desc=parseMarkdown ,p04;dur=4.883956;desc=parseFrontmatter ,p05;dur=5.50132;desc=find ,p06;dur=13.730965;desc=reformat ,p07;dur=10.751263;desc=split ,p08;dur=7.899945;desc=getmetadata ,p09;dur=1.567519;desc=unwrap ,p10;dur=0.780747;desc=selectstrain ,p11;dur=0.77271;desc=selecttest ,p12;dur=67.923026;desc=html ,p13;dur=1.387417;desc=sanitize ,p14;dur=57.84206;desc=once ,p15;dur=0.954157;desc=setmime ,p16;dur=1.247976;desc=cache ,p17;dur=1.11605;desc=key ,p18;dur=0.703018;desc=tovdom ,p19;dur=0.654335;desc=clean ,p20;dur=0.621029;desc=rewrite ,p21;dur=8.947161;desc=addHeaders ,p22;dur=4.202381;desc=stringify ,p23;dur=1.728412;desc=flag ,p24;dur=0.852402;desc=debug ,p25;dur=0.170568;desc=report
+2019-09-11T22:30:38.062Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:30:38.062Z debug: resolved /head.html -> html
+2019-09-11T22:30:38.063Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:30:38.063Z debug: resolved /header.plain.html -> plain_html
+2019-09-11T22:30:38.064Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:30:38.064Z debug: resolved /footer.plain.html -> plain_html
+2019-09-11T22:30:38.066Z debug: Constructing HTML Pipeline
+2019-09-11T22:30:38.066Z debug: Creating pipeline
+2019-09-11T22:30:38.066Z debug: Coercing secrets
+2019-09-11T22:30:38.067Z debug: Running HTML pipeline
+2019-09-11T22:30:38.069Z info: trying to load http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/fstab.json
+2019-09-11T22:30:38.073Z debug: Constructing HTML Pipeline
+2019-09-11T22:30:38.073Z debug: Creating pipeline
+2019-09-11T22:30:38.073Z debug: Coercing secrets
+2019-09-11T22:30:38.074Z debug: Running HTML pipeline
+2019-09-11T22:30:38.075Z debug: fetching Markdown from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md
+2019-09-11T22:30:38.079Z debug: Constructing HTML Pipeline
+2019-09-11T22:30:38.079Z debug: Creating pipeline
+2019-09-11T22:30:38.080Z debug: Coercing secrets
+2019-09-11T22:30:38.080Z debug: Running HTML pipeline
+2019-09-11T22:30:38.081Z debug: fetching Markdown from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.md
+2019-09-11T22:30:38.103Z error: Could not find Markdown at http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md
+2019-09-11T22:30:38.109Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2230-38.0106_header.plain.html_ddff93d187b468cfb0b46b5e85f12377
+2019-09-11T22:30:38.111Z error: Could not find Markdown at http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.md
+2019-09-11T22:30:38.123Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.plain.html
+2019-09-11T22:30:38.125Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2230-38.0114_footer.plain.html_a240a1976134b0f9e03c09735ac4f5a7
+2019-09-11T22:30:38.129Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.plain.html
+2019-09-11T22:30:38.130Z info: resourcePath=/head
+2019-09-11T22:30:38.130Z info: relPath=/head
+2019-09-11T22:30:38.130Z info: fetching Markdown from https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=TG7ISrYmEl%2FHSKM7jews44QS9y1WXn2e
+2019-09-11T22:30:38.144Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/header.plain.html
+2019-09-11T22:30:38.147Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/footer.plain.html
+2019-09-11T22:30:39.080Z error: Could not find Markdown at https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=TG7ISrYmEl%2FHSKM7jews44QS9y1WXn2e
+2019-09-11T22:30:39.083Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2230-39.0082_head.html_4f58ca7b9d5ccb6fc001fc90b1827901
+2019-09-11T22:30:39.087Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/head.html
+2019-09-11T22:30:39.097Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/head.html
+2019-09-11T22:30:39.147Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:30:39.147Z debug: resolved /style.css -> css
+2019-09-11T22:30:39.148Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:30:39.148Z debug: resolved /scrani.js -> js
+2019-09-11T22:30:39.149Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/style.css
+2019-09-11T22:30:39.151Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/scrani.js
+2019-09-11T22:30:39.166Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/style.css
+2019-09-11T22:30:39.169Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/scrani.js
+2019-09-11T22:31:16.691Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:16.692Z debug: resolved /index.html -> html
+2019-09-11T22:31:16.694Z debug: Constructing HTML Pipeline
+2019-09-11T22:31:16.695Z debug: Creating pipeline
+2019-09-11T22:31:16.695Z debug: Coercing secrets
+2019-09-11T22:31:16.696Z debug: Running HTML pipeline
+2019-09-11T22:31:16.698Z info: trying to load http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/fstab.json
+2019-09-11T22:31:16.712Z info: resourcePath=/index
+2019-09-11T22:31:16.712Z info: relPath=/index
+2019-09-11T22:31:16.713Z info: fetching Markdown from https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Findex&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=xkKIUtw84XwWUUiSxtL3dBbVL1HIBCe7
+2019-09-11T22:31:17.726Z debug: Parsing markdown from request body starting with Testing
+2019-09-11T22:31:17.731Z debug: Parsing Markdown Metadata from 2 sections
+2019-09-11T22:31:17.742Z debug: Turning Markdown into HTML from object
+2019-09-11T22:31:17.771Z debug: Keeping existing Surrogate-Key header
+2019-09-11T22:31:17.782Z debug: total processing time: 1087.211903ms
+2019-09-11T22:31:17.782Z debug: timing: p00;dur=0.8278;desc=resolveRef ,p01;dur=1027.462371;desc=undef ,p02;dur=0.335997;desc=fetch ,p03;dur=2.142814;desc=parseMarkdown ,p04;dur=0.527879;desc=parseFrontmatter ,p05;dur=0.491626;desc=find ,p06;dur=1.761439;desc=reformat ,p07;dur=0.97581;desc=split ,p08;dur=1.21186;desc=getmetadata ,p09;dur=0.691078;desc=unwrap ,p10;dur=8.114326;desc=selectstrain ,p11;dur=0.780639;desc=selecttest ,p12;dur=5.526868;desc=html ,p13;dur=0.8771;desc=sanitize ,p14;dur=21.132573;desc=once ,p15;dur=0.61636;desc=setmime ,p16;dur=0.497032;desc=cache ,p17;dur=0.555467;desc=key ,p18;dur=0.5483;desc=tovdom ,p19;dur=4.877393;desc=clean ,p20;dur=0.527498;desc=rewrite ,p21;dur=0.906455;desc=addHeaders ,p22;dur=2.174863;desc=stringify ,p23;dur=1.179582;desc=flag ,p24;dur=0.533579;desc=debug ,p25;dur=0.121771;desc=report
+2019-09-11T22:31:17.789Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:17.789Z debug: resolved /head.html -> html
+2019-09-11T22:31:17.790Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:17.790Z debug: resolved /header.plain.html -> plain_html
+2019-09-11T22:31:17.790Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:17.790Z debug: resolved /footer.plain.html -> plain_html
+2019-09-11T22:31:17.791Z debug: Constructing HTML Pipeline
+2019-09-11T22:31:17.791Z debug: Creating pipeline
+2019-09-11T22:31:17.791Z debug: Coercing secrets
+2019-09-11T22:31:17.791Z debug: Running HTML pipeline
+2019-09-11T22:31:17.794Z info: trying to load http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/fstab.json
+2019-09-11T22:31:17.795Z debug: Constructing HTML Pipeline
+2019-09-11T22:31:17.795Z debug: Creating pipeline
+2019-09-11T22:31:17.795Z debug: Coercing secrets
+2019-09-11T22:31:17.795Z debug: Running HTML pipeline
+2019-09-11T22:31:17.797Z debug: fetching Markdown from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md
+2019-09-11T22:31:17.801Z debug: Constructing HTML Pipeline
+2019-09-11T22:31:17.801Z debug: Creating pipeline
+2019-09-11T22:31:17.801Z debug: Coercing secrets
+2019-09-11T22:31:17.802Z debug: Running HTML pipeline
+2019-09-11T22:31:17.802Z debug: fetching Markdown from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.md
+2019-09-11T22:31:17.811Z error: Could not find Markdown at http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md
+2019-09-11T22:31:17.813Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2231-17.0812_header.plain.html_c630696bd78aa54e165ca3ededc8fb3c
+2019-09-11T22:31:17.815Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.plain.html
+2019-09-11T22:31:17.819Z error: Could not find Markdown at http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.md
+2019-09-11T22:31:17.820Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2231-17.0820_footer.plain.html_7a4acd559f398a6aff5124ab1ad363c3
+2019-09-11T22:31:17.823Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.plain.html
+2019-09-11T22:31:17.824Z info: resourcePath=/head
+2019-09-11T22:31:17.824Z info: relPath=/head
+2019-09-11T22:31:17.824Z info: fetching Markdown from https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=5VTroqO75mrC6ENg4RYorl3Kb4B3DZvM
+2019-09-11T22:31:17.835Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/header.plain.html
+2019-09-11T22:31:17.839Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/footer.plain.html
+2019-09-11T22:31:18.896Z error: Could not find Markdown at https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=5VTroqO75mrC6ENg4RYorl3Kb4B3DZvM
+2019-09-11T22:31:18.901Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2231-18.0899_head.html_fdf286eedc41c6df68eb53d6dc2a91ae
+2019-09-11T22:31:18.905Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/head.html
+2019-09-11T22:31:18.912Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/head.html
+2019-09-11T22:31:18.966Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:18.966Z debug: resolved /style.css -> css
+2019-09-11T22:31:18.967Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:18.967Z debug: resolved /scrani.js -> js
+2019-09-11T22:31:18.968Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/style.css
+2019-09-11T22:31:18.969Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/scrani.js
+2019-09-11T22:31:18.985Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/scrani.js
+2019-09-11T22:31:18.988Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/style.css
+2019-09-11T22:31:19.096Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:19.097Z debug: resolved /favicon.ico -> ico
+2019-09-11T22:31:19.098Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/favicon.ico
+2019-09-11T22:31:19.115Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/favicon.ico
+2019-09-11T22:31:48.687Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:48.687Z debug: resolved /index.html -> html
+2019-09-11T22:31:48.689Z debug: Constructing HTML Pipeline
+2019-09-11T22:31:48.690Z debug: Creating pipeline
+2019-09-11T22:31:48.690Z debug: Coercing secrets
+2019-09-11T22:31:48.692Z debug: Running HTML pipeline
+2019-09-11T22:31:48.696Z info: trying to load http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/fstab.json
+2019-09-11T22:31:48.712Z info: resourcePath=/index
+2019-09-11T22:31:48.713Z info: relPath=/index
+2019-09-11T22:31:48.713Z info: fetching Markdown from https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Findex&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=iv8t7TqdXYPa3LBaggvq9yewq1VrdgI8
+2019-09-11T22:31:49.979Z debug: Parsing markdown from request body starting with 
+2019-09-11T22:31:49.989Z debug: Parsing Markdown Metadata from 2 sections
+2019-09-11T22:31:49.995Z debug: Turning Markdown into HTML from object
+2019-09-11T22:31:50.037Z debug: Keeping existing Surrogate-Key header
+2019-09-11T22:31:50.049Z debug: total processing time: 1357.613693ms
+2019-09-11T22:31:50.049Z debug: timing: p00;dur=1.610689;desc=resolveRef ,p01;dur=1282.690037;desc=undef ,p02;dur=0.683768;desc=fetch ,p03;dur=3.674357;desc=parseMarkdown ,p04;dur=0.794478;desc=parseFrontmatter ,p05;dur=0.698476;desc=find ,p06;dur=1.659982;desc=reformat ,p07;dur=2.279665;desc=split ,p08;dur=4.778439;desc=getmetadata ,p09;dur=0.695255;desc=unwrap ,p10;dur=0.600358;desc=selectstrain ,p11;dur=0.700167;desc=selecttest ,p12;dur=10.036835;desc=html ,p13;dur=1.075583;desc=sanitize ,p14;dur=29.619582;desc=once ,p15;dur=0.747537;desc=setmime ,p16;dur=0.893181;desc=cache ,p17;dur=0.876613;desc=key ,p18;dur=0.721562;desc=tovdom ,p19;dur=2.11868;desc=clean ,p20;dur=1.19109;desc=rewrite ,p21;dur=2.985684;desc=addHeaders ,p22;dur=1.47653;desc=stringify ,p23;dur=0.951113;desc=flag ,p24;dur=0.808749;desc=debug ,p25;dur=0.049541;desc=report
+2019-09-11T22:31:50.059Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:50.060Z debug: resolved /head.html -> html
+2019-09-11T22:31:50.060Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:50.060Z debug: resolved /header.plain.html -> plain_html
+2019-09-11T22:31:50.061Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:50.061Z debug: resolved /footer.plain.html -> plain_html
+2019-09-11T22:31:50.062Z debug: Constructing HTML Pipeline
+2019-09-11T22:31:50.062Z debug: Creating pipeline
+2019-09-11T22:31:50.062Z debug: Coercing secrets
+2019-09-11T22:31:50.063Z debug: Running HTML pipeline
+2019-09-11T22:31:50.064Z info: trying to load http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/fstab.json
+2019-09-11T22:31:50.065Z debug: Constructing HTML Pipeline
+2019-09-11T22:31:50.065Z debug: Creating pipeline
+2019-09-11T22:31:50.065Z debug: Coercing secrets
+2019-09-11T22:31:50.065Z debug: Running HTML pipeline
+2019-09-11T22:31:50.066Z debug: fetching Markdown from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md
+2019-09-11T22:31:50.070Z debug: Constructing HTML Pipeline
+2019-09-11T22:31:50.070Z debug: Creating pipeline
+2019-09-11T22:31:50.071Z debug: Coercing secrets
+2019-09-11T22:31:50.071Z debug: Running HTML pipeline
+2019-09-11T22:31:50.072Z debug: fetching Markdown from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.md
+2019-09-11T22:31:50.091Z error: Could not find Markdown at http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md
+2019-09-11T22:31:50.094Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2231-50.0093_header.plain.html_560e4aa159341bd50088b8876fdd33e1
+2019-09-11T22:31:50.096Z error: Could not find Markdown at http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.md
+2019-09-11T22:31:50.098Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2231-50.0097_footer.plain.html_3eded25715e6e26bcaeb46632613fbbf
+2019-09-11T22:31:50.101Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.plain.html
+2019-09-11T22:31:50.104Z info: resourcePath=/head
+2019-09-11T22:31:50.105Z info: relPath=/head
+2019-09-11T22:31:50.105Z info: fetching Markdown from https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=0tuTJ%2BaGWQPD2%2B9pKYX313AE31i98Zo%2B
+2019-09-11T22:31:50.115Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.plain.html
+2019-09-11T22:31:50.135Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/footer.plain.html
+2019-09-11T22:31:50.142Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/header.plain.html
+2019-09-11T22:31:51.032Z error: Could not find Markdown at https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=0tuTJ%2BaGWQPD2%2B9pKYX313AE31i98Zo%2B
+2019-09-11T22:31:51.034Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2231-51.0034_head.html_8ae44fa7a97ad94d8e70c6c16288b29c
+2019-09-11T22:31:51.038Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/head.html
+2019-09-11T22:31:51.047Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/head.html
+2019-09-11T22:31:51.083Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:51.084Z debug: resolved /style.css -> css
+2019-09-11T22:31:51.084Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:51.085Z debug: resolved /scrani.js -> js
+2019-09-11T22:31:51.087Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/style.css
+2019-09-11T22:31:51.087Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/scrani.js
+2019-09-11T22:31:51.105Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/style.css
+2019-09-11T22:31:51.109Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/scrani.js
+2019-09-11T22:31:51.235Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:31:51.235Z debug: resolved /favicon.ico -> ico
+2019-09-11T22:31:51.235Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/favicon.ico
+2019-09-11T22:31:51.252Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/favicon.ico
+2019-09-11T22:33:09.621Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:33:09.621Z debug: resolved /index.html -> html
+2019-09-11T22:33:09.624Z debug: Constructing HTML Pipeline
+2019-09-11T22:33:09.624Z debug: Creating pipeline
+2019-09-11T22:33:09.624Z debug: Coercing secrets
+2019-09-11T22:33:09.624Z debug: Running HTML pipeline
+2019-09-11T22:33:09.626Z info: trying to load http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/fstab.json
+2019-09-11T22:33:09.638Z info: resourcePath=/index
+2019-09-11T22:33:09.638Z info: relPath=/index
+2019-09-11T22:33:09.638Z info: fetching Markdown from https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Findex&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=sSUF4z6ml4hxkpA5oxvTqqfycGby6E7l
+2019-09-11T22:33:10.643Z debug: Parsing markdown from request body starting with 
+2019-09-11T22:33:10.652Z debug: Parsing Markdown Metadata from 2 sections
+2019-09-11T22:33:10.655Z debug: Turning Markdown into HTML from object
+2019-09-11T22:33:10.692Z debug: Keeping existing Surrogate-Key header
+2019-09-11T22:33:10.701Z debug: total processing time: 1076.722494ms
+2019-09-11T22:33:10.701Z debug: timing: p00;dur=0.848383;desc=resolveRef ,p01;dur=1013.985156;desc=undef ,p02;dur=2.706244;desc=fetch ,p03;dur=4.85743;desc=parseMarkdown ,p04;dur=0.825243;desc=parseFrontmatter ,p05;dur=0.781289;desc=find ,p06;dur=2.320294;desc=reformat ,p07;dur=0.788769;desc=split ,p08;dur=1.095431;desc=getmetadata ,p09;dur=0.405883;desc=unwrap ,p10;dur=0.392788;desc=selectstrain ,p11;dur=0.388466;desc=selecttest ,p12;dur=7.726995;desc=html ,p13;dur=0.832694;desc=sanitize ,p14;dur=25.982081;desc=once ,p15;dur=0.959713;desc=setmime ,p16;dur=1.402619;desc=cache ,p17;dur=1.176739;desc=key ,p18;dur=0.828767;desc=tovdom ,p19;dur=1.898149;desc=clean ,p20;dur=0.736591;desc=rewrite ,p21;dur=1.3129;desc=addHeaders ,p22;dur=1.691684;desc=stringify ,p23;dur=0.900189;desc=flag ,p24;dur=0.837661;desc=debug ,p25;dur=0.043476;desc=report
+2019-09-11T22:33:10.710Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:33:10.710Z debug: resolved /footer.plain.html -> plain_html
+2019-09-11T22:33:10.710Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:33:10.710Z debug: resolved /header.plain.html -> plain_html
+2019-09-11T22:33:10.711Z debug: Constructing HTML Pipeline
+2019-09-11T22:33:10.711Z debug: Creating pipeline
+2019-09-11T22:33:10.711Z debug: Coercing secrets
+2019-09-11T22:33:10.712Z debug: Running HTML pipeline
+2019-09-11T22:33:10.714Z debug: fetching Markdown from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.md
+2019-09-11T22:33:10.715Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:33:10.715Z debug: resolved /head.html -> html
+2019-09-11T22:33:10.717Z debug: Constructing HTML Pipeline
+2019-09-11T22:33:10.717Z debug: Creating pipeline
+2019-09-11T22:33:10.717Z debug: Coercing secrets
+2019-09-11T22:33:10.717Z debug: Running HTML pipeline
+2019-09-11T22:33:10.718Z debug: fetching Markdown from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md
+2019-09-11T22:33:10.718Z debug: Constructing HTML Pipeline
+2019-09-11T22:33:10.719Z debug: Creating pipeline
+2019-09-11T22:33:10.719Z debug: Coercing secrets
+2019-09-11T22:33:10.719Z debug: Running HTML pipeline
+2019-09-11T22:33:10.721Z info: trying to load http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/fstab.json
+2019-09-11T22:33:10.735Z error: Could not find Markdown at http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.md
+2019-09-11T22:33:10.738Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2233-10.0738_footer.plain.html_9da2d114d6f151133318a1e5396d3c0b
+2019-09-11T22:33:10.740Z error: Could not find Markdown at http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md
+2019-09-11T22:33:10.744Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/footer.plain.html
+2019-09-11T22:33:10.749Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2233-10.0742_header.plain.html_fdc21a30a426b76b39070398268ba764
+2019-09-11T22:33:10.753Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.plain.html
+2019-09-11T22:33:10.761Z info: resourcePath=/head
+2019-09-11T22:33:10.761Z info: relPath=/head
+2019-09-11T22:33:10.761Z info: fetching Markdown from https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=nspk4ul3lc5eRhOYukCejey%2Frf6EzBZj
+2019-09-11T22:33:10.804Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/footer.plain.html
+2019-09-11T22:33:10.810Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/header.plain.html
+2019-09-11T22:33:11.852Z error: Could not find Markdown at https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=nspk4ul3lc5eRhOYukCejey%2Frf6EzBZj
+2019-09-11T22:33:11.856Z info: Writing context dumps to: /Users/uncled/codez/mcres/logs/debug/context_dump_20190811-2233-11.0855_head.html_bc522c66167d9bb453d4c28e0ddbed4d
+2019-09-11T22:33:11.860Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/head.html
+2019-09-11T22:33:11.869Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/head.html
+2019-09-11T22:33:11.909Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:33:11.909Z debug: resolved /style.css -> css
+2019-09-11T22:33:11.911Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:33:11.911Z debug: resolved /scrani.js -> js
+2019-09-11T22:33:11.913Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/style.css
+2019-09-11T22:33:11.914Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/scrani.js
+2019-09-11T22:33:11.931Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/scrani.js
+2019-09-11T22:33:11.937Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/style.css
+2019-09-11T22:33:12.109Z debug: current strain: default: {
+  "code": "https://github.com/davidnuescheler/mcres.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--davidnuescheler--mcres",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:51455",
+    "port": 51455,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-09-11T22:33:12.109Z debug: resolved /favicon.ico -> ico
+2019-09-11T22:33:12.110Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/favicon.ico
+2019-09-11T22:33:12.120Z debug: fetching static resource from http://127.0.0.1:51455/raw/helix/github.com--adobe--helix-pages/master/htdocs/favicon.ico

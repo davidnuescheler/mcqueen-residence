@@ -1,0 +1,73 @@
+{
+  "request": {
+    "params": {},
+    "headers": {
+      "x-openwhisk-activation-id": "560e4aa159341bd50088b8876fdd33e1",
+      "x-request-id": "oR8lbmKXifRhOPF32aiiy0bZFVl7WI6x",
+      "x-backend-name": "localhost--F_Petridish",
+      "x-cdn-request-id": "c3910e03-4f31-2296-1bbf-7f0d953db587",
+      "x-strain": "default",
+      "x-old-url": "/header.plain.html",
+      "x-repo-root-path": "",
+      "accept": "text/html, application/xhtml+xml, application/xml",
+      "host": "localhost:3000",
+      "accept-encoding": "gzip, deflate",
+      "connection": "close"
+    },
+    "method": "get",
+    "path": "/header.plain.html",
+    "extension": "html",
+    "selector": "plain",
+    "url": "/header.plain.html",
+    "rootPath": "",
+    "pathInfo": "/header.plain.html"
+  },
+  "content": {},
+  "response": {
+    "status": 404
+  },
+  "error": {
+    "name": "StatusCodeError",
+    "statusCode": 404,
+    "message": "404 - \"not found.\"",
+    "error": "not found.",
+    "options": {
+      "uri": "http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md",
+      "json": false,
+      "timeout": 1000,
+      "time": true,
+      "simple": true,
+      "resolveWithFullResponse": false,
+      "transform2xxOnly": false
+    },
+    "response": {
+      "statusCode": 404,
+      "body": "not found.",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "10",
+        "etag": "W/\"a-2Jl1e2xUy2XTfkwo5C5qLldbASQ\"",
+        "date": "Wed, 11 Sep 2019 22:31:50 GMT",
+        "connection": "close"
+      },
+      "request": {
+        "uri": {
+          "protocol": "http:",
+          "slashes": true,
+          "auth": null,
+          "host": "127.0.0.1:51455",
+          "port": "51455",
+          "hostname": "127.0.0.1",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/raw/helix/github.com--davidnuescheler--mcres/master/header.md",
+          "path": "/raw/helix/github.com--davidnuescheler--mcres/master/header.md",
+          "href": "http://127.0.0.1:51455/raw/helix/github.com--davidnuescheler--mcres/master/header.md"
+        },
+        "method": "GET",
+        "headers": {}
+      }
+    }
+  }
+}

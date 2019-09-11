@@ -1,0 +1,7 @@
+{
+  "main": "html.pre.js",
+  "requires": [
+    "fetch-google.js",
+    "fetch-fstab.js"
+  ]
+}

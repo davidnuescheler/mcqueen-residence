@@ -1,0 +1,7 @@
+{
+  "main": "idx_json.js",
+  "requires": [
+    "html.pre.js",
+    "idx_json.pipe.js"
+  ]
+}

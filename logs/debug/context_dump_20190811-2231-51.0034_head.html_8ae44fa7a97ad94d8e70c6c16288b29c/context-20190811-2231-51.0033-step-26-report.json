@@ -1,0 +1,82 @@
+{
+  "request": {
+    "params": {},
+    "headers": {
+      "x-openwhisk-activation-id": "8ae44fa7a97ad94d8e70c6c16288b29c",
+      "x-request-id": "0tuTJ+aGWQPD2+9pKYX313AE31i98Zo+",
+      "x-backend-name": "localhost--F_Petridish",
+      "x-cdn-request-id": "7d28f54a-1cdc-5410-3de6-74a4338f2ab9",
+      "x-strain": "default",
+      "x-old-url": "/head.html",
+      "x-repo-root-path": "",
+      "accept": "text/html, application/xhtml+xml, application/xml",
+      "host": "localhost:3000",
+      "accept-encoding": "gzip, deflate",
+      "connection": "close"
+    },
+    "method": "get",
+    "path": "/head.html",
+    "extension": "html",
+    "selector": "",
+    "url": "/head.html",
+    "rootPath": "",
+    "pathInfo": "/head.html"
+  },
+  "content": {},
+  "response": {
+    "status": 404
+  },
+  "error": {
+    "name": "StatusCodeError",
+    "statusCode": 404,
+    "message": "404 - \"Not Found: /head\"",
+    "error": "Not Found: /head",
+    "options": {
+      "uri": "https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=0tuTJ%2BaGWQPD2%2B9pKYX313AE31i98Zo%2B",
+      "json": false,
+      "timeout": 10000,
+      "time": true,
+      "followAllRedirects": true,
+      "simple": true,
+      "resolveWithFullResponse": false,
+      "transform2xxOnly": false
+    },
+    "response": {
+      "statusCode": 404,
+      "body": "Not Found: /head",
+      "headers": {
+        "access-control-allow-headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, User-Agent",
+        "access-control-allow-methods": "OPTIONS, GET, DELETE, POST, PUT, HEAD, PATCH",
+        "access-control-allow-origin": "*",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Wed, 11 Sep 2019 22:31:50 GMT",
+        "server": "api-gateway/1.9.3.1",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "deny",
+        "x-openwhisk-activation-id": "a854ffe5d0324f6394ffe5d0324f6368",
+        "x-request-id": "VvTr3mns2T6Sgpicfwd8MquuDdcNwP1L",
+        "x-xss-protection": "1; mode=block",
+        "content-length": "16",
+        "connection": "Close"
+      },
+      "request": {
+        "uri": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "adobeioruntime.net",
+          "port": 443,
+          "hostname": "adobeioruntime.net",
+          "hash": null,
+          "search": "?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=0tuTJ%2BaGWQPD2%2B9pKYX313AE31i98Zo%2B",
+          "query": "path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=0tuTJ%2BaGWQPD2%2B9pKYX313AE31i98Zo%2B",
+          "pathname": "/api/v1/web/helix/helix-services/gdocs2md@latest",
+          "path": "/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=0tuTJ%2BaGWQPD2%2B9pKYX313AE31i98Zo%2B",
+          "href": "https://adobeioruntime.net/api/v1/web/helix/helix-services/gdocs2md@latest?path=%2Fhead&rootId=1W2tqFsAJgGn9mvQRXOSOJxlJA3INxtAt&src=helix%2Fgithub.com--davidnuescheler--mcres%2Fmaster&rid=0tuTJ%2BaGWQPD2%2B9pKYX313AE31i98Zo%2B"
+        },
+        "method": "GET",
+        "headers": {}
+      }
+    }
+  }
+}
