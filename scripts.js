@@ -263,7 +263,8 @@ export function toClassName(name) {
  */
 
 function createHeroSection() {
-    const $headerImg = document.querySelector('main>div:first-of-type>div>:first-child>img');
+    const $h1 = document.querySelector('h1');
+    const $headerImg = $h1.parentElement.querySelector('img');
     if ($headerImg) {
       const src = $headerImg.getAttribute('src');
       const $wrapper = $headerImg.closest('.section-wrapper');
@@ -282,6 +283,17 @@ function createHeroSection() {
       }
     });
   }
+
+  function decorateImageOnlySections() {
+    document.querySelectorAll('main div.section-wrapper').forEach(($section) => {
+      console.log($section.textContent);
+      const text = $section.textContent.replace(/(\r\n|\n|\r)/gm, '').trim();
+      if (text.length < 3 && $section.querySelector('img')) {
+        console.log('gallery found');
+        $section.classList.add('gallery');
+      }
+    })
+  }
   
   async function decoratePage() {
     wrapSections('main > div');
@@ -290,6 +302,7 @@ function createHeroSection() {
     });
     createHeroSection();
     decorateBlocks();
+    decorateImageOnlySections();
     setLCPTrigger();
     //preloadFonts();
 

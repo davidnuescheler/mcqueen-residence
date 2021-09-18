@@ -31,8 +31,7 @@
   
 
 body {
-    font-family: 'adobe-clean', 'Adobe Clean',
-    'helvetica neue', helvetica,
+    font-family: 'helvetica neue', helvetica,
     ubuntu,
     roboto, noto,
     sans-serif;
@@ -126,7 +125,7 @@ main>.section-wrapper.hero {
     color: white;
     background-size: cover;
     background-position: center center;
-    height: 60vh;
+    height: 100vh;
     text-shadow: 0 0 5px black;
 }
 
@@ -215,6 +214,21 @@ html {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
+main .section-wrapper.gallery {
+    margin: 0;
+    padding: 0;
+}
+
+main > div.section-wrapper.gallery > div {
+    width: 100%;
+    max-width: unset;
+}
+
+main > div.section-wrapper.gallery > div p {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
 
 @media (min-width: 600px) {
     html {
@@ -229,15 +243,4 @@ html {
         max-width: 30em;
         margin: auto;
     }    
-}
-
-.banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100px;
-    right: 0;
-    background-color: red;
-    color: white;
-
 }
