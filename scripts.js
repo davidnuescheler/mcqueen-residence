@@ -13,15 +13,6 @@
           FontFace, sessionStorage, Image */
 /* eslint-disable no-console */
 
-async function isResourceCached(url, waitTimeMs = 4) {
-  const ac = new AbortController()
-  const cachePromise = fetch(url, {signal: ac.signal})
-    .then(() => true)
-    .catch(() => false)
-  setTimeout(() => ac.abort(), waitTimeMs)
-  return cachePromise
-}
-
 /**
  * Loads a CSS file.
  * @param {string} href The path to the CSS file
@@ -250,45 +241,6 @@ function createHeroSection() {
       }
     });
   }
-
-  async function loadFont(name, url, weight) {
-    const font = new FontFace(name, url, { weight });
-    const fontLoaded = await font.load();
-    return (fontLoaded);
-  }
-  
-  async function preloadFonts() {
-    stamp('checking for fonts');
-    const fonts = [
-      {
-        name: 'adobe-clean',
-        url: 'https://use.typekit.net/af/b0c5f5/00000000000000003b9b3f85/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3',
-        weight: 400
-      }, {
-        name: 'adobe-clean',
-        url: 'https://use.typekit.net/af/ad2a79/00000000000000003b9b3f8c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3',
-        weight: 900
-      }, {
-        name: 'adobe-clean',
-        url: 'https://use.typekit.net/af/97fbd1/00000000000000003b9b3f88/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3',
-        weight: 700
-      }
-    ]; 
-    isResourceCached(fonts[0].url, 20).then(async (p) => {
-      stamp(p);
-      if (p === true) {
-        try {
-          fonts.forEach((fontSpec) => {
-            const {name, url, weight} = fontSpec;
-            const font = new FontFace(name, `url("${url}")`, { weight });
-            font.load();  
-          })
-        } catch (e) {
-          console.log(`font load error: ${e}`);
-        }
-      }    
-    });
-  };
   
   async function decoratePage() {
     wrapSections('main > div');
@@ -304,7 +256,6 @@ function createHeroSection() {
     $main.classList.add('appear');
   }
   
-  window.spark = {};
   decoratePage();
   
   /* performance instrumentation */
@@ -334,15 +285,5 @@ function createHeroSection() {
   }
 
   if (window.name.includes('performance')) registerPerformanceLogger();
-
-
-  const sst = sessionStorage.getItem('drinks');
-  if (sst) {
-      const $banner = createTag('div', { class: 'banner'});
-      $banner.innerHTML = `Welcome back ${sst}`;
-      document.body.appendChild($banner);
-      console.log($banner);    
-  }
-  sessionStorage.setItem('drinks', `drink ${Math.random()}`);
 
   
