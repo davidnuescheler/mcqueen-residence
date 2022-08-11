@@ -184,6 +184,7 @@ hr {
 }
 
 main img {
+    width: auto;
     max-width: 100%;
     height: auto;
 }
@@ -229,6 +230,11 @@ main > div.section-wrapper.gallery > div p {
     padding: 0;
     line-height: 0;
 }
+
+main .section-wrapper.gallery img {
+    width: 100%;
+}
+
 
 @media (min-width: 600px) {
     html {
