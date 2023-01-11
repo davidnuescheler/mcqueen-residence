@@ -164,7 +164,6 @@ export function toClassName(name) {
   
   function postLCP() {
     loadBlocks();
-    loadCSS('/lazy-styles.css');
   }
   
   
@@ -286,16 +285,15 @@ function createHeroSection() {
 
   function decorateImageOnlySections() {
     document.querySelectorAll('main div.section-wrapper').forEach(($section) => {
-      console.log($section.textContent);
       const text = $section.textContent.replace(/(\r\n|\n|\r)/gm, '').trim();
       if (text.length < 3 && $section.querySelector('img')) {
-        console.log('gallery found');
         $section.classList.add('gallery');
       }
     })
   }
   
   async function decoratePage() {
+    document.documentElement.lang = 'en';
     wrapSections('main > div');
     checkWebpFeature(() => {
       webpPolyfill(document);
