@@ -265,11 +265,8 @@ function createHeroSection() {
     const $h1 = document.querySelector('h1');
     const $headerImg = $h1.parentElement.querySelector('img');
     if ($headerImg) {
-      const src = $headerImg.getAttribute('src');
       const $wrapper = $headerImg.closest('.section-wrapper');
-      $wrapper.style.backgroundImage = `url(${src})`;
       $wrapper.classList.add('hero');
-      $headerImg.parentNode.remove();
     }
   }
   
@@ -295,9 +292,6 @@ function createHeroSection() {
   async function decoratePage() {
     document.documentElement.lang = 'en';
     wrapSections('main > div');
-    checkWebpFeature(() => {
-      webpPolyfill(document);
-    });
     createHeroSection();
     decorateBlocks();
     decorateImageOnlySections();
