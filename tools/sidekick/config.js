@@ -3,6 +3,6 @@ window.hlx.initSidekick({
   host: 'https://mcqueen-residence.org/',
   byocdn: true,
   hlx3: true,
-  reviewHost: 'main--mcqueen-residence--davidnuescheler.aem.page',
+  previewHost: 'main--mcqueen-residence--davidnuescheler.aem.page',
   liveHost: 'main--mcqueen-residence--davidnuescheler.aem.live',
 });
